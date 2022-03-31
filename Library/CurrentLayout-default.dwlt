@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 138
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 65
+  controlID: 139
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 66
+  controlID: 140
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -351,14 +351,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\UnityHub\CvLicenta\Test
+  m_LastProjectPath: D:\UnityHub\CvLicenta\FolderLicenta\Licenta
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 62}
-    m_SelectedIDs: 643b0000
-    m_LastClickedID: 15204
-    m_ExpandedIDs: 00000000643b0000663b0000683b000000ca9a3b
+    m_SelectedIDs: 50430000
+    m_LastClickedID: 17232
+    m_ExpandedIDs: 0000000050430000524300005443000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000643b0000663b0000683b0000
+    m_ExpandedIDs: 00000000504300005243000054430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -507,23 +507,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 383b0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2c61ffff6470ffffb884ffff109cffff40a4ffff84afffff96bbffffbabcffff70cfffff0ceeffff88f9ffffe4f9ffff52fbffffbcae0000
+      m_ExpandedIDs: 80e1ffffa4f0ffffc8f1ffff52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: LaserBeamer_Upgraded(Clone)
-        m_OriginalName: LaserBeamer_Upgraded(Clone)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -40032
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 35.58328, y: 12.491297, z: 15.0584135}
+    m_Target: {x: 78.417625, y: 9.159342, z: 13.188284}
     speed: 2
-    m_Value: {x: 35.58328, y: 12.491297, z: 15.0584135}
+    m_Value: {x: 78.417625, y: 9.159342, z: 13.188284}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -618,9 +618,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.22762018, y: 0.5745429, z: -0.17039365, w: -0.7675005}
+    m_Target: {x: -0.067076795, y: 0.5620384, z: -0.045798935, w: -0.823121}
     speed: 2
-    m_Value: {x: -0.22762002, y: 0.57454246, z: -0.17039353, w: -0.7675}
+    m_Value: {x: -0.06831097, y: 0.56196564, z: -0.046641666, w: -0.8230144}
   m_Size:
     m_Target: 0.8660254
     speed: 2
