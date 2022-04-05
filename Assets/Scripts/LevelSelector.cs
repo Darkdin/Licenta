@@ -24,4 +24,4 @@ public class LevelSelector : MonoBehaviour
     {
         fader.FadeTo(levelName);
     }
-}
+}  
