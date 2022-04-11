@@ -19093,35 +19093,35 @@ MonoBehaviour:
     count: 10
     rate: 3
   - enemy: {fileID: 4678937942062106431, guid: eaaac2df4bc44cd49a9ad21f2d5b7c3b, type: 3}
-    count: 7
+    count: 3
     rate: 2
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
+  - enemy: {fileID: 4678937942062106431, guid: eaaac2df4bc44cd49a9ad21f2d5b7c3b, type: 3}
+    count: 5
+    rate: 4
+  - enemy: {fileID: 4678937942062106431, guid: eaaac2df4bc44cd49a9ad21f2d5b7c3b, type: 3}
     count: 10
+    rate: 5
+  - enemy: {fileID: 4678937942062106431, guid: 913b720787f68da4aaee8a24f58765e8, type: 3}
+    count: 4
+    rate: 2
+  - enemy: {fileID: 4678937942062106431, guid: 913b720787f68da4aaee8a24f58765e8, type: 3}
+    count: 5
     rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
-  - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
-    count: 10
-    rate: 3
+  - enemy: {fileID: 4678937942062106431, guid: 913b720787f68da4aaee8a24f58765e8, type: 3}
+    count: 7
+    rate: 4
+  - enemy: {fileID: 4678937942062106431, guid: 06d9897ed7c8feb4e95e9d6675915008, type: 3}
+    count: 1
+    rate: 2
+  - enemy: {fileID: 4678937942062106431, guid: 06d9897ed7c8feb4e95e9d6675915008, type: 3}
+    count: 2
+    rate: 2
+  - enemy: {fileID: 4678937942062106431, guid: 06d9897ed7c8feb4e95e9d6675915008, type: 3}
+    count: 4
+    rate: 2
+  - enemy: {fileID: 4678937942062106431, guid: 1576686d8b299dc4fabf6c5687e18f9a, type: 3}
+    count: 1
+    rate: 2
   spawnPoint: {fileID: 291226744}
   timeBetweenWaves: 3
   waveCountdownText: {fileID: 906659728}
