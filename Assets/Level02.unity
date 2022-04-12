@@ -3138,9 +3138,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuSceneName: MainMenu
-  nextLevel: Level02
-  levelToUnlock: 2
-  sceneFader: {fileID: 0}
+  nextLevel: Level03
+  levelToUnlock: 3
+  sceneFader: {fileID: 215481485}
 --- !u!95 &338738662
 Animator:
   serializedVersion: 3
@@ -19140,23 +19140,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - enemy: {fileID: 4678937942062106431, guid: f9eefe2ab79f10143a7f3bff4490b160, type: 3}
-    count: 1
-    rate: 2
-  - enemy: {fileID: 4678937942062106431, guid: f9eefe2ab79f10143a7f3bff4490b160, type: 3}
+  - enemy: {fileID: 4678937942062106431, guid: 457b206ce323c1b44a31ed4c3fd9a090, type: 3}
     count: 2
-    rate: 2
-  - enemy: {fileID: 4678937942062106431, guid: f9eefe2ab79f10143a7f3bff4490b160, type: 3}
-    count: 5
-    rate: 2
-  - enemy: {fileID: 4678937942062106431, guid: 6b24647b34bf95748942f71b46212223, type: 3}
-    count: 3
     rate: 1
+  - enemy: {fileID: 4678937942062106431, guid: f9eefe2ab79f10143a7f3bff4490b160, type: 3}
+    count: 6
+    rate: 2
   - enemy: {fileID: 4678937942062106431, guid: 040c12b68cc3c444dbdee2b36f120a62, type: 3}
     count: 10
+    rate: 2
+  - enemy: {fileID: 4678937942062106431, guid: 8567bbceefb257b4685018e78eecec77, type: 3}
+    count: 4
+    rate: 2
+  - enemy: {fileID: 4678937942062106431, guid: 8567bbceefb257b4685018e78eecec77, type: 3}
+    count: 6
     rate: 3
+  - enemy: {fileID: 4678937942062106431, guid: 01a8f0ba7a4cbd24f828d2fbb3a5e5b7, type: 3}
+    count: 8
+    rate: 2
+  - enemy: {fileID: 4678937942062106431, guid: ce94554c258047142a92d258b4084bea, type: 3}
+    count: 5
+    rate: 3
+  - enemy: {fileID: 4678937942062106431, guid: 06d9897ed7c8feb4e95e9d6675915008, type: 3}
+    count: 6
+    rate: 3
+  - enemy: {fileID: 4678937942062106431, guid: 913b720787f68da4aaee8a24f58765e8, type: 3}
+    count: 14
+    rate: 4
+  - enemy: {fileID: 4678937942062106431, guid: 85dc042ce23f9e04c896db0c1645b4ef, type: 3}
+    count: 1
+    rate: 1
   spawnPoint: {fileID: 291226744}
-  timeBetweenWaves: 1
+  timeBetweenWaves: 4
   waveCountdownText: {fileID: 906659728}
   gameManager: {fileID: 1940388840}
 --- !u!4 &1940388837
@@ -19201,7 +19216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 1000
-  startLives: 10
+  startLives: 2
 --- !u!114 &1940388840
 MonoBehaviour:
   m_ObjectHideFlags: 0
