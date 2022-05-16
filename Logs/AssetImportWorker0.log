@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16169 MB
+OS: 'Windows 10 Pro; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16169 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/UnityHub/CvLicenta/FolderLicenta/Licenta
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63814
+50589
 Successfully changed project path to: D:/UnityHub/CvLicenta/FolderLicenta/Licenta
 D:/UnityHub/CvLicenta/FolderLicenta/Licenta
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path D:/UnityHub/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -30,1581 +30,356 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
     Vendor:   
     VRAM:     8031 MB
-    Driver:   30.0.15.1179
+    Driver:   30.0.15.1277
 Initialize mono
 Mono path[0] = 'D:/UnityHub/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityHub/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityHub/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityHub/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UnityHub/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001242 seconds.
+Registered in 0.000983 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
+- Completed reload, in  0.773 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000513 seconds.
+Registered in 0.000478 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
+- Completed reload, in  0.668 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 149.4 MB.
 System memory in use after: 149.5 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1610.
-Total: 1.796300 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.551800 ms  DeleteObjects: 0.071000 ms)
+Total: 2.263300 ms (FindLiveObjects: 0.135100 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.975300 ms  DeleteObjects: 0.112600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Enemies/Ufo 3/Enemy_Ufo3.prefab
-  artifactKey: Guid(06d9897ed7c8feb4e95e9d6675915008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Ufo 3/Enemy_Ufo3.prefab using Guid(06d9897ed7c8feb4e95e9d6675915008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614e07ff4342e222fae9ae3173c506b0') in 0.123656 seconds
-  Import took 0.125813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.858552 seconds.
-  path: Assets/Enemies/Lv2/Fast_lv2
-  artifactKey: Guid(dcb803ff0f191db46888fe8293eb773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Lv2/Fast_lv2 using Guid(dcb803ff0f191db46888fe8293eb773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5ec613101e6bc2aafcb96b412c9292') in 0.021304 seconds
-  Import took 0.027978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.394375 seconds.
-  path: Assets/Enemies/Babani/Enemy_Babani.prefab
-  artifactKey: Guid(6b24647b34bf95748942f71b46212223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Babani/Enemy_Babani.prefab using Guid(6b24647b34bf95748942f71b46212223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c425f3359b1094b3d773ba1ac84832') in 0.048617 seconds
-  Import took 0.056661 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000586 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.5 MB.
-System memory in use after: 152.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1622.
-Total: 1.672500 ms (FindLiveObjects: 0.128900 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.445100 ms  DeleteObjects: 0.061600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 464.206173 seconds.
   path: Assets/Level01.unity
   artifactKey: Guid(38ef3455870907a488e207c4d7bfc826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level01.unity using Guid(38ef3455870907a488e207c4d7bfc826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd19411b178a6370a14e321e779986d1') in 0.062942 seconds
-  Import took 0.070593 seconds .
+Start importing Assets/Level01.unity using Guid(38ef3455870907a488e207c4d7bfc826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3145a99b334f8eaa583cf2e0d68b218a') in 0.022820 seconds
+  Import took 0.025730 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000528 seconds.
+Registered in 0.000435 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.618 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.6 MB.
+System memory in use before: 149.4 MB.
+System memory in use after: 149.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1625.
-Total: 1.703400 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.469600 ms  DeleteObjects: 0.060300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 1.452400 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.227900 ms  DeleteObjects: 0.057100 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000506 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1628.
-Total: 1.552400 ms (FindLiveObjects: 0.127100 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.328100 ms  DeleteObjects: 0.059700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.855 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1631.
-Total: 1.636000 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.389700 ms  DeleteObjects: 0.063100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 703.948070 seconds.
-  path: Assets/Imports/Kenney/Materials/snow_tile.mat
-  artifactKey: Guid(9cb0ba9669c798647afcd67eb9d529d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/snow_tile.mat using Guid(9cb0ba9669c798647afcd67eb9d529d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befeefa537a372c5e263274b99716a97') in 0.091489 seconds
-  Import took 0.094555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.432607 seconds.
-  path: Assets/Imports/Kenney/Materials/tile_straightHillLarge.mat
-  artifactKey: Guid(653fd6e7061de4042ba6c21640c81e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/tile_straightHillLarge.mat using Guid(653fd6e7061de4042ba6c21640c81e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779e33731f7940952c14c3ce9b1137bb') in 0.037393 seconds
-  Import took 0.041386 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000585 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.8 MB.
-System memory in use after: 152.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
-Total: 1.844400 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.594200 ms  DeleteObjects: 0.068400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000640 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.8 MB.
-System memory in use after: 152.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
-Total: 1.922000 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.626800 ms  DeleteObjects: 0.069300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000616 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.8 MB.
-System memory in use after: 152.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1674.
-Total: 1.623600 ms (FindLiveObjects: 0.146700 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.352600 ms  DeleteObjects: 0.084100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 795.736354 seconds.
-  path: Assets/Imports/Kenney/Chestii/tile_riverStraight 1.obj
-  artifactKey: Guid(9e774d755770ff14599af120bc721de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii/tile_riverStraight 1.obj using Guid(9e774d755770ff14599af120bc721de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9693b7a021eb4790330aa643543444') in 0.164614 seconds
-  Import took 0.169126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.468042 seconds.
-  path: Assets/Imports/Kenney/Materials/tile_riverStraight.obj
-  artifactKey: Guid(1fba7183cf927e74f8f672239f20f34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/tile_riverStraight.obj using Guid(1fba7183cf927e74f8f672239f20f34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c95fb424e89996e191949cb6400f6f9') in 0.042813 seconds
-  Import took 0.046094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010194 seconds.
-  path: Assets/Imports/Kenney/Materials/tile_riverStraight.obj
-  artifactKey: Guid(1fba7183cf927e74f8f672239f20f34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/tile_riverStraight.obj using Guid(1fba7183cf927e74f8f672239f20f34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c95fb424e89996e191949cb6400f6f9') in 0.030155 seconds
-  Import took 0.032512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 144.139010 seconds.
-  path: Assets/Imports/Kenney/Materials/Tile_riverStraight.json
-  artifactKey: Guid(950ff48148ea10340afb62779ef3659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/Tile_riverStraight.json using Guid(950ff48148ea10340afb62779ef3659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef427f32cbe401bbafc9bf58b9cc51b7') in 0.040615 seconds
-  Import took 0.048182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.771763 seconds.
-  path: Assets/Imports/Kenney/Materials/snow_tile_riverSlopeLarge.glb
-  artifactKey: Guid(fd2170a11eb4dfe48a97ab68077dd1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/snow_tile_riverSlopeLarge.glb using Guid(fd2170a11eb4dfe48a97ab68077dd1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a6d930d0305ef9a28b8ae34c7ebd4b') in 0.033094 seconds
-  Import took 0.040062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.998989 seconds.
-  path: Assets/Imports/Kenney/Materials/snow_tile_riverCorner.glb
-  artifactKey: Guid(e50319a82c93cb4429077814bf8778db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/snow_tile_riverCorner.glb using Guid(e50319a82c93cb4429077814bf8778db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a28249d0d3ceecd4fe32db26fca0e1') in 0.010583 seconds
-  Import took 0.013618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.247041 seconds.
-  path: Assets/Imports/Kenney/Materials/snow_tile_rock.fbx
-  artifactKey: Guid(9fb594d63a4ff3543a83367f61242066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/snow_tile_rock.fbx using Guid(9fb594d63a4ff3543a83367f61242066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c62e70750d5dc8952b06154a91de88') in 0.061700 seconds
-  Import took 0.064497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.447860 seconds.
-  path: Assets/Imports/Kenney/Materials/tile_wideCorner.fbx
-  artifactKey: Guid(b0032059520554f4f86df8a5088dea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Materials/tile_wideCorner.fbx using Guid(b0032059520554f4f86df8a5088dea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96fe6a5e729f6bff2829ef98953cc9d') in 0.034896 seconds
-  Import took 0.037188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.129594 seconds.
-  path: Assets/Imports/Kenney/New Folder
-  artifactKey: Guid(afb11ac1140822c4aa25a25dd97c229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/New Folder using Guid(afb11ac1140822c4aa25a25dd97c229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0125ffc8cfdad14cc2c6304e750f3f') in 0.012493 seconds
-  Import took 0.015957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.891388 seconds.
-  path: Assets/Imports/Kenney/New Folder
-  artifactKey: Guid(afb11ac1140822c4aa25a25dd97c229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/New Folder using Guid(afb11ac1140822c4aa25a25dd97c229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0125ffc8cfdad14cc2c6304e750f3f') in 0.002610 seconds
-  Import took 0.004567 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000586 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.0 MB.
-System memory in use after: 153.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
-Total: 1.961600 ms (FindLiveObjects: 0.174200 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.673400 ms  DeleteObjects: 0.068900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.764917 seconds.
-  path: Assets/Imports/Kenney/Poze
-  artifactKey: Guid(afb11ac1140822c4aa25a25dd97c229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Poze using Guid(afb11ac1140822c4aa25a25dd97c229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c802b155d321d68869a6e47028a7436') in 0.008076 seconds
-  Import took 0.010248 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000582 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.0 MB.
-System memory in use after: 153.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1684.
-Total: 1.711800 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.452400 ms  DeleteObjects: 0.064700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.840522 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune
-  artifactKey: Guid(070ec701be944a44aab4b7e29d5e47f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune using Guid(070ec701be944a44aab4b7e29d5e47f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc6ea324f81fd1e7d0022eacfb72b89') in 0.009908 seconds
-  Import took 0.012454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.803921 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_crystal.fbx
-  artifactKey: Guid(fe8e51879e2c9a54286df8a44a0cb828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_crystal.fbx using Guid(fe8e51879e2c9a54286df8a44a0cb828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84224ee9e8dc4023fe303e8dcddd99e') in 0.092218 seconds
-  Import took 0.094522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_dirt.fbx
-  artifactKey: Guid(860a80e0e3ef4204281e683d0a9e3182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_dirt.fbx using Guid(860a80e0e3ef4204281e683d0a9e3182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6df4360a1875bf9153ef47fbcddf08a') in 0.043414 seconds
-  Import took 0.045738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoRedWeapon.fbx
-  artifactKey: Guid(db3e3033f5a244746ad8dc54ee24788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoRedWeapon.fbx using Guid(db3e3033f5a244746ad8dc54ee24788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9550462418484c30d1ac6901288c8e32') in 0.040534 seconds
-  Import took 0.042683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_transition.fbx
-  artifactKey: Guid(21ab83be77f08234ca48348c85416f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_transition.fbx using Guid(21ab83be77f08234ca48348c85416f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5a4514cc6890b8a6fd5a11533604ba') in 0.043553 seconds
-  Import took 0.046241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile.fbx
-  artifactKey: Guid(6fdc260dc8a4cbf45943d1037ec10d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile.fbx using Guid(6fdc260dc8a4cbf45943d1037ec10d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3179999aa041bf6f28067851b290f7') in 0.027756 seconds
-  Import took 0.030162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_straightHill.fbx
-  artifactKey: Guid(3fc11d7836b2d4b4ebb6f7b242dab339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_straightHill.fbx using Guid(3fc11d7836b2d4b4ebb6f7b242dab339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec6d9bab28e2883ad88a6a0425014b6') in 0.037649 seconds
-  Import took 0.039739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_rock.fbx
-  artifactKey: Guid(b0752fb48a663e74a9d9c0dfe3ac9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_rock.fbx using Guid(b0752fb48a663e74a9d9c0dfe3ac9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce97f814ed3394d3390fc4dc235fa580') in 0.040282 seconds
-  Import took 0.042974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverFall.fbx
-  artifactKey: Guid(2804e991d22f7d549ab1024cb3a6b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverFall.fbx using Guid(2804e991d22f7d549ab1024cb3a6b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6566e9b5abfd71aa04fcc1138217a3') in 0.029607 seconds
-  Import took 0.031711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerSquare.fbx
-  artifactKey: Guid(0701933ace8f8c642a42c8f6d4c0a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerSquare.fbx using Guid(0701933ace8f8c642a42c8f6d4c0a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4a1802b5a4351985857a7c7d66c419') in 0.034052 seconds
-  Import took 0.036081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverCorner.fbx
-  artifactKey: Guid(2ebd297ca75ceb34f801b9bab4c75e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverCorner.fbx using Guid(2ebd297ca75ceb34f801b9bab4c75e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba62011c17e4c3ebda2152742bc16d3c') in 0.027357 seconds
-  Import took 0.029393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_treeLarge.fbx
-  artifactKey: Guid(f327593bd2747ea4cbcbd8d78ec85bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_treeLarge.fbx using Guid(f327593bd2747ea4cbcbd8d78ec85bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1941b51f28072bd68d6611ec4d614224') in 0.037692 seconds
-  Import took 0.039748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoYellowWeapon.fbx
-  artifactKey: Guid(b4305921bf086cb4b933af77ea6dea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoYellowWeapon.fbx using Guid(b4305921bf086cb4b933af77ea6dea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a037ac75167a3dc1c155159ee3c3604') in 0.053100 seconds
-  Import took 0.055366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverTransition.fbx
-  artifactKey: Guid(8cdefdf3fc349c442a49691c9db0abca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverTransition.fbx using Guid(8cdefdf3fc349c442a49691c9db0abca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7f5aa90b938d13dbcf490680f3c6d7') in 0.031230 seconds
-  Import took 0.033317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_endRoundSpawn.fbx
-  artifactKey: Guid(313c6a99bf240884f8af4803a13abc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_endRoundSpawn.fbx using Guid(313c6a99bf240884f8af4803a13abc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640f28dc545f7c915349ff8ba63bc006') in 0.046397 seconds
-  Import took 0.048797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_rocksLarge.fbx
-  artifactKey: Guid(e7589bb9d5b0989428821c944fcef266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_rocksLarge.fbx using Guid(e7589bb9d5b0989428821c944fcef266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590cd71542543bcacaf05f3e3ace1c3') in 0.018899 seconds
-  Import took 0.020914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_spawn.fbx
-  artifactKey: Guid(ea178c91e13c15242967bc3f90b62ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_spawn.fbx using Guid(ea178c91e13c15242967bc3f90b62ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7655ffa9aea869e0837676ac0ee3391') in 0.039218 seconds
-  Import took 0.041343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_crystal.fbx
-  artifactKey: Guid(56cd21c3c6ba3fb408ab56c5c5384f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_crystal.fbx using Guid(56cd21c3c6ba3fb408ab56c5c5384f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7274dfd34f2954974effb068c55650f6') in 0.024040 seconds
-  Import took 0.026123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_spawnRound.fbx
-  artifactKey: Guid(fb8e7b4ca8474d044baf240b506d8c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_spawnRound.fbx using Guid(fb8e7b4ca8474d044baf240b506d8c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b475cf86012bc1cda9cfc907ce0e363') in 0.041968 seconds
-  Import took 0.044104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_dirtLarge.fbx
-  artifactKey: Guid(af898badc0525e64ab40d81253ded300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_dirtLarge.fbx using Guid(af898badc0525e64ab40d81253ded300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1fefcfccedbd275a03c7ea4be748d0') in 0.024302 seconds
-  Import took 0.026623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoPurple.fbx
-  artifactKey: Guid(37df83a0bf7a6f947960985cb673c5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoPurple.fbx using Guid(37df83a0bf7a6f947960985cb673c5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1565d953b92ce0b74137414145ac94e8') in 0.034080 seconds
-  Import took 0.036334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoYellow.fbx
-  artifactKey: Guid(305c56841b875ce4084f0a1adc54458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoYellow.fbx using Guid(305c56841b875ce4084f0a1adc54458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd964957394065d658afe917219f54d6d') in 0.035308 seconds
-  Import took 0.038087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoGreen.fbx
-  artifactKey: Guid(8a9e37fd29b118b4aa5041ede46817af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoGreen.fbx using Guid(8a9e37fd29b118b4aa5041ede46817af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6491230d5337dc49b8b13b77b2f00793') in 0.028331 seconds
-  Import took 0.030616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_tree.fbx
-  artifactKey: Guid(6c76269247442c64e8839cf286ba6ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_tree.fbx using Guid(6c76269247442c64e8839cf286ba6ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6df2b72f54b00cdc8639e0f22917e04') in 0.035152 seconds
-  Import took 0.037348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerInner.fbx
-  artifactKey: Guid(bddf7d50a19535740bebe8b8b1329986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerInner.fbx using Guid(bddf7d50a19535740bebe8b8b1329986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92924ebd1d2f1c2f24c079f3e11146c4') in 0.028154 seconds
-  Import took 0.030356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_straightHillLarge.fbx
-  artifactKey: Guid(cd406de3aecc7bc4baa0232829e1c496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_straightHillLarge.fbx using Guid(cd406de3aecc7bc4baa0232829e1c496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac0c4bef3b88b76076ac140231fa0bb') in 0.036875 seconds
-  Import took 0.039163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerOuter.fbx
-  artifactKey: Guid(b9c6ca9b261bed141b728f51a97a5f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerOuter.fbx using Guid(b9c6ca9b261bed141b728f51a97a5f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a638130aa87dc439b6e57ffe91af54a') in 0.024732 seconds
-  Import took 0.026851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_treeQuad.fbx
-  artifactKey: Guid(d4480ceb6862dec49a267d7762822545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_treeQuad.fbx using Guid(d4480ceb6862dec49a267d7762822545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2d460d4fb594c8f04a2d7d1039ea37') in 0.069986 seconds
-  Import took 0.072195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverBridge.fbx
-  artifactKey: Guid(2ad1160fd93546046b371ea8160edb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverBridge.fbx using Guid(2ad1160fd93546046b371ea8160edb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d4a309a56dd856e9973f0ba93189ce') in 0.030840 seconds
-  Import took 0.032905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverStraight.fbx
-  artifactKey: Guid(28e46d7f777914a4c963d8f2b432c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverStraight.fbx using Guid(28e46d7f777914a4c963d8f2b432c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2504049e562091da0549ea7da95c6a88') in 0.026604 seconds
-  Import took 0.028698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_slope.fbx
-  artifactKey: Guid(d4feaafb57b9f8643a296b6134a5ec73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_slope.fbx using Guid(d4feaafb57b9f8643a296b6134a5ec73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a354146089d5ae3b1c486c25ce75af79') in 0.024192 seconds
-  Import took 0.026323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoRed.fbx
-  artifactKey: Guid(3363c269b9dac2e4ca83e45c73c09fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoRed.fbx using Guid(3363c269b9dac2e4ca83e45c73c09fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fd0f40ffe0896b69fe6b01d18b9c42') in 0.034069 seconds
-  Import took 0.036434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoPurpleWeapon.fbx
-  artifactKey: Guid(3925dfde33f838545a3df6b0b407441f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoPurpleWeapon.fbx using Guid(3925dfde33f838545a3df6b0b407441f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fbcb7f9ecd522a6ba708de4e4c00b0') in 0.040465 seconds
-  Import took 0.042882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverSlopeLarge.fbx
-  artifactKey: Guid(84677a8d5de3d054882b9537f8c977e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverSlopeLarge.fbx using Guid(84677a8d5de3d054882b9537f8c977e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcdd0de137ba90b67f7bf3d05def9aa') in 0.034962 seconds
-  Import took 0.037312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_hill.fbx
-  artifactKey: Guid(419dc75ece76cf048b1d8f193e24e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_hill.fbx using Guid(419dc75ece76cf048b1d8f193e24e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5972f2ac633913ec0c97e639e21e2fc3') in 0.038455 seconds
-  Import took 0.040632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/enemy_ufoGreenWeapon.fbx
-  artifactKey: Guid(cfd34dc945b7be64397c3022d5014da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/enemy_ufoGreenWeapon.fbx using Guid(cfd34dc945b7be64397c3022d5014da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf8c8839b57452f434cf74f9a31fffe') in 0.046276 seconds
-  Import took 0.048576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_tree.fbx
-  artifactKey: Guid(833afc3cf41f46b4da7c1ef1253695ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_tree.fbx using Guid(833afc3cf41f46b4da7c1ef1253695ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e6eefa41e95a105ae1c0a1adf50e32') in 0.027527 seconds
-  Import took 0.029570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_tree.fbx
-  artifactKey: Guid(06d615b0bc600ac43bc93e94adddbb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_tree.fbx using Guid(06d615b0bc600ac43bc93e94adddbb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32d497fe80af57dd30b1d9295245d23') in 0.039080 seconds
-  Import took 0.041175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_crystal.fbx
-  artifactKey: Guid(266ea64403ce7844c8e022caea7026fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_crystal.fbx using Guid(266ea64403ce7844c8e022caea7026fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ba26a0ac50bb637739c38287e46ef3') in 0.068599 seconds
-  Import took 0.070743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_bump.fbx
-  artifactKey: Guid(0e87417102657af4297f9d5ff9f74fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_bump.fbx using Guid(0e87417102657af4297f9d5ff9f74fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca91b909506aadc8bfa1070110872e84') in 0.030989 seconds
-  Import took 0.033102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_dirtLarge.fbx
-  artifactKey: Guid(1a6512ef84ea7914eace022925258ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_dirtLarge.fbx using Guid(1a6512ef84ea7914eace022925258ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ea7398006d80a7db31644c358814dc') in 0.022371 seconds
-  Import took 0.024430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_split.fbx
-  artifactKey: Guid(dad1808772886b74096695687e553feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_split.fbx using Guid(dad1808772886b74096695687e553feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c645d4da1a0cd35a44ee30bebe2d8cbf') in 0.028489 seconds
-  Import took 0.030528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_treeDouble.fbx
-  artifactKey: Guid(67b6ac4886c2af247a8a8baa49b044d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_treeDouble.fbx using Guid(67b6ac4886c2af247a8a8baa49b044d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3075764ba0d52f623d8bf29310ac73c0') in 0.053915 seconds
-  Import took 0.056139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_rocks.fbx
-  artifactKey: Guid(404b95e2bfda7d04ab506f5ef6bd054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_rocks.fbx using Guid(404b95e2bfda7d04ab506f5ef6bd054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1518c7a875758873e62352b650f8df6f') in 0.021270 seconds
-  Import took 0.023401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_rocksLarge.fbx
-  artifactKey: Guid(6b68d0e949ad415449a6166a90e80aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_rocksLarge.fbx using Guid(6b68d0e949ad415449a6166a90e80aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468ac730279168b5822ebe412111d5e3') in 0.025871 seconds
-  Import took 0.028331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverSlope.fbx
-  artifactKey: Guid(028d00708af276246b3e973e06e40d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_riverSlope.fbx using Guid(028d00708af276246b3e973e06e40d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cdfaacb209a78c86b9d82419211a6a') in 0.034726 seconds
-  Import took 0.037107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_crossing.fbx
-  artifactKey: Guid(e7f84a8de1714ca41af29d9f0ba2b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_crossing.fbx using Guid(e7f84a8de1714ca41af29d9f0ba2b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6340e9b15b9324154cb995f58539b8e') in 0.035916 seconds
-  Import took 0.038261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerRound.fbx
-  artifactKey: Guid(ec441a142b4956f4093037eb85e3d235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerRound.fbx using Guid(ec441a142b4956f4093037eb85e3d235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd05eba3a561cf8e7215a9ca2ae1a285') in 0.037986 seconds
-  Import took 0.040240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_straight.fbx
-  artifactKey: Guid(af11faccc267fd2438cbf16f4712d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_straight.fbx using Guid(af11faccc267fd2438cbf16f4712d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c048ddfa1334cb7100f3cf339028fc87') in 0.031358 seconds
-  Import took 0.033713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_dirt.fbx
-  artifactKey: Guid(b53fbe43b91aa3948a69a7f9cd0634b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_dirt.fbx using Guid(b53fbe43b91aa3948a69a7f9cd0634b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9744ef2a4e81f4f09e693d893da1a247') in 0.018875 seconds
-  Import took 0.020933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_end.fbx
-  artifactKey: Guid(53cf2a8d539950b438cb8766d1c65df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_end.fbx using Guid(53cf2a8d539950b438cb8766d1c65df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca331a8a715a9267c2cbd137c10e2f98') in 0.031752 seconds
-  Import took 0.033901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_crystalLarge.fbx
-  artifactKey: Guid(54a965b1d116d3f408a9498816987920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_crystalLarge.fbx using Guid(54a965b1d116d3f408a9498816987920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca645445f67af4373c234df8b9aff4ba') in 0.058864 seconds
-  Import took 0.061139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_endSpawn.fbx
-  artifactKey: Guid(67b5540c12c3ae14a8ad672e5146803f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_endSpawn.fbx using Guid(67b5540c12c3ae14a8ad672e5146803f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359bcbfe16f2f2a92394b55391d78b61') in 0.039274 seconds
-  Import took 0.041409 seconds .
-
-========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_detail_rocks.fbx
-  artifactKey: Guid(e4d34b0cfe4632c41b8cba7747335e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_detail_rocks.fbx using Guid(e4d34b0cfe4632c41b8cba7747335e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e8052d21bfaea1dffdbed61ceba7d6') in 0.022062 seconds
-  Import took 0.024074 seconds .
+  Time since last request: 1332.597505 seconds.
+  path: Assets/Imports/Kenney/Poze/Materials/tile_riverCorner.mat
+  artifactKey: Guid(e5ec12c66fb02dd47a1183ecf920a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Kenney/Poze/Materials/tile_riverCorner.mat using Guid(e5ec12c66fb02dd47a1183ecf920a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af810a09a846d7f5ed99b423090998ce') in 0.118250 seconds
+  Import took 0.120399 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_crystalLarge.fbx
-  artifactKey: Guid(9d6f61ce9787cb54fa231d6b4b590562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_crystalLarge.fbx using Guid(9d6f61ce9787cb54fa231d6b4b590562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3858aef9a192f4643551dff77c8b064') in 0.053127 seconds
-  Import took 0.055663 seconds .
+  Time since last request: 410.074861 seconds.
+  path: Assets/Scripts/CompleteLevel.cs
+  artifactKey: Guid(684aae029e5d8af42a894f329973db51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CompleteLevel.cs using Guid(684aae029e5d8af42a894f329973db51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad8b0a1ac4676927796de48deb15195') in 0.015151 seconds
+  Import took 0.017379 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerLarge.fbx
-  artifactKey: Guid(f0b411cf3c0052546ac39aeb636ba7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_cornerLarge.fbx using Guid(f0b411cf3c0052546ac39aeb636ba7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7d8abdcc2f552d589002b567509690') in 0.031453 seconds
-  Import took 0.033834 seconds .
+  Time since last request: 9.047468 seconds.
+  path: Assets/Scripts/Node.cs
+  artifactKey: Guid(4971f88e53062a547afce869eded85bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Node.cs using Guid(4971f88e53062a547afce869eded85bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d4a7885cabec4d8ff5183066e25da2') in 0.005730 seconds
+  Import took 0.007738 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000322 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_endRound.fbx
-  artifactKey: Guid(4442403300731b640940dcfd94e725c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_endRound.fbx using Guid(4442403300731b640940dcfd94e725c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619159f7796584d7ebb3af3e7ce6c15c') in 0.030371 seconds
-  Import took 0.032467 seconds .
+  path: Assets/Scripts/Node.cs
+  artifactKey: Guid(4971f88e53062a547afce869eded85bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Node.cs using Guid(4971f88e53062a547afce869eded85bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d4a7885cabec4d8ff5183066e25da2') in 0.002178 seconds
+  Import took 0.004250 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/detail_treeLarge.fbx
-  artifactKey: Guid(ca5d593ac1f900d498c0c90047aa3513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/detail_treeLarge.fbx using Guid(ca5d593ac1f900d498c0c90047aa3513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b8d8fce8180ac5bd756237c1bed42b') in 0.026436 seconds
-  Import took 0.028475 seconds .
+  Time since last request: 8.178733 seconds.
+  path: Assets/Scripts/SceneFader.cs
+  artifactKey: Guid(1b2113a811d15fc4ca431f6645081def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneFader.cs using Guid(1b2113a811d15fc4ca431f6645081def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a93713d98459e6ed93dc8b39191c7d') in 0.008627 seconds
+  Import took 0.010435 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.940037 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideCorner.fbx
-  artifactKey: Guid(93b360ab5d9290c428f70fbeba54f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideCorner.fbx using Guid(93b360ab5d9290c428f70fbeba54f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd223e0a1b2376a0af87e166d852ca8f') in 0.103178 seconds
-  Import took 0.111093 seconds .
+  Time since last request: 982.175586 seconds.
+  path: Assets/Materials/PtPod.mat
+  artifactKey: Guid(3c104303eb04c674b86ff2d60cd428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PtPod.mat using Guid(3c104303eb04c674b86ff2d60cd428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c681c2a23122265e1d9f805bcde0b7') in 0.016863 seconds
+  Import took 0.019160 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000884 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_dirt.fbx
-  artifactKey: Guid(b84eb00237d35f04d85a8b82e702aa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_dirt.fbx using Guid(b84eb00237d35f04d85a8b82e702aa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ce909c6c3b7d70e5a6dd4e63ded932') in 0.060433 seconds
-  Import took 0.066617 seconds .
+  Time since last request: 91.559712 seconds.
+  path: Assets/Materials/PtPod.mat
+  artifactKey: Guid(3c104303eb04c674b86ff2d60cd428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PtPod.mat using Guid(3c104303eb04c674b86ff2d60cd428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad3cff84208355e7537ff783a8b39f1') in 0.014224 seconds
+  Import took 0.016218 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.7 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 1.668600 ms (FindLiveObjects: 0.130100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.437200 ms  DeleteObjects: 0.068000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_endRoundSpawn.fbx
-  artifactKey: Guid(f34a2c9dfa8538b43bc5cceb3267d9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_endRoundSpawn.fbx using Guid(f34a2c9dfa8538b43bc5cceb3267d9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f51b51d70768719f9fdc24b27d5173') in 0.053805 seconds
-  Import took 0.057307 seconds .
+  Time since last request: 2757.825146 seconds.
+  path: Assets/Imports/Kenney/Materials/dirt.mat
+  artifactKey: Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Kenney/Materials/dirt.mat using Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fc5b7ae3c0951498f94d0ee605827d') in 0.067546 seconds
+  Import took 0.069314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideSplit.fbx
-  artifactKey: Guid(1a26e10475b469d4d9a57961d042694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideSplit.fbx using Guid(1a26e10475b469d4d9a57961d042694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af816c6e9f69e6e6692b5fc312054a21') in 0.050522 seconds
-  Import took 0.052725 seconds .
+  Time since last request: 3.029361 seconds.
+  path: Assets/Imports/Kenney/Materials/CicaDirt.mat
+  artifactKey: Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Kenney/Materials/CicaDirt.mat using Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232e717e62fbeb0cae016cad4def465f') in 0.019375 seconds
+  Import took 0.021081 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.341000 ms (FindLiveObjects: 0.118700 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.134000 ms  DeleteObjects: 0.055800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.597 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 1.474400 ms (FindLiveObjects: 0.120600 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.267100 ms  DeleteObjects: 0.054800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_straightHill.fbx
-  artifactKey: Guid(3508dd5cf8285bb4eb52dabd3a9a9400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_straightHill.fbx using Guid(3508dd5cf8285bb4eb52dabd3a9a9400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8117281d05cf62e0612333ffcf1ca529') in 0.033845 seconds
-  Import took 0.036253 seconds .
+  Time since last request: 9881.622535 seconds.
+  path: Assets/Level01.unity
+  artifactKey: Guid(38ef3455870907a488e207c4d7bfc826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level01.unity using Guid(38ef3455870907a488e207c4d7bfc826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776f93ae80980441a51dda5dd1e1df09') in 0.029019 seconds
+  Import took 0.031179 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_spawn.fbx
-  artifactKey: Guid(9b5fde7ae43f22640ba08ed8f49373bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_spawn.fbx using Guid(9b5fde7ae43f22640ba08ed8f49373bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdabf3646b775c53a0b0ddfd64525c63') in 0.050365 seconds
-  Import took 0.052671 seconds .
+  Time since last request: 12.185564 seconds.
+  path: Assets/Level02.unity
+  artifactKey: Guid(f543a5905c157eb45b2e426e180c0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level02.unity using Guid(f543a5905c157eb45b2e426e180c0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0467fcbf9aad0e7a2663aebbeab5377a') in 0.006758 seconds
+  Import took 0.008554 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 152.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 2.517800 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.094000 ms MarkObjects: 2.095300 ms  DeleteObjects: 0.063600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_wideCorner.fbx
-  artifactKey: Guid(81ff201d3c2980b4f8bef5fe108e8848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_wideCorner.fbx using Guid(81ff201d3c2980b4f8bef5fe108e8848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa329134f9693c0ab2cfc7fea4aa2f4') in 0.029946 seconds
-  Import took 0.032116 seconds .
+  Time since last request: 1761.566559 seconds.
+  path: Assets/Level02.unity
+  artifactKey: Guid(f543a5905c157eb45b2e426e180c0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level02.unity using Guid(f543a5905c157eb45b2e426e180c0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb59870a838396529b88ec5623b2228') in 0.013210 seconds
+  Import took 0.014885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_treeDouble.fbx
-  artifactKey: Guid(e237420d5196887408839345871d1222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_treeDouble.fbx using Guid(e237420d5196887408839345871d1222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca936df6b4cd6a2890b1b1292212cc31') in 0.053265 seconds
-  Import took 0.055620 seconds .
+  Time since last request: 1718.642255 seconds.
+  path: Assets/Imports/Kenney/Materials/CicaDirt.mat
+  artifactKey: Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Kenney/Materials/CicaDirt.mat using Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17132b3231f39a95488f3d52bf492177') in 0.107260 seconds
+  Import took 0.110511 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_slope.fbx
-  artifactKey: Guid(3637fb458b6ff124eab32e2f7bcd75c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_slope.fbx using Guid(3637fb458b6ff124eab32e2f7bcd75c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3522c5467079a9a763c629c9a3003a') in 0.028698 seconds
-  Import took 0.030841 seconds .
+  Time since last request: 0.002450 seconds.
+  path: Assets/Imports/Kenney/Materials/CicaDirt.mat
+  artifactKey: Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Kenney/Materials/CicaDirt.mat using Guid(9fc24a7bc84dddf458cda81b8a576581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17132b3231f39a95488f3d52bf492177') in 0.017037 seconds
+  Import took 0.018946 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.072842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 152.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1670.
+Total: 1.346700 ms (FindLiveObjects: 0.120600 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.139200 ms  DeleteObjects: 0.056200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_split.fbx
-  artifactKey: Guid(0438d3672f00cc7468b182f7335de419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_split.fbx using Guid(0438d3672f00cc7468b182f7335de419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc11fd8ba2e097e2ed96db15784f0e8') in 0.031473 seconds
-  Import took 0.033713 seconds .
+  Time since last request: 2039.499073 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_Snow_AlbedoGround_Snow_NM793646612c42751.terrainlayer
+  artifactKey: Guid(f9f2ab0175ad6c64abec67f8aafbb05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_Snow_AlbedoGround_Snow_NM793646612c42751.terrainlayer using Guid(f9f2ab0175ad6c64abec67f8aafbb05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b70abfe6135783d23ae80fb8716bc5') in 0.076805 seconds
+  Import took 0.078921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_treeQuad.fbx
-  artifactKey: Guid(b89bf1fb07db30b42a35ab3fa7613976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_treeQuad.fbx using Guid(b89bf1fb07db30b42a35ab3fa7613976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cc4feebee57e54dd7aff70b6255990') in 0.068746 seconds
-  Import took 0.070984 seconds .
+  Time since last request: 0.000168 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Helper_Color_01793646612c42751.terrainlayer
+  artifactKey: Guid(97ffdd76d6edcfc4daba58707ea12352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Helper_Color_01793646612c42751.terrainlayer using Guid(97ffdd76d6edcfc4daba58707ea12352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045f5d64f95544589e3a35418859b20f') in 0.009246 seconds
+  Import took 0.010865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_crossing.fbx
-  artifactKey: Guid(dc77fec112322fb4f9a2a4a308a6fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_crossing.fbx using Guid(dc77fec112322fb4f9a2a4a308a6fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88ebc7e62fc80a972e13c25e8a4064a') in 0.030973 seconds
-  Import took 0.033684 seconds .
+  Time since last request: 16.002892 seconds.
+  path: Assets/ANGRY MESH/Snowman
+  artifactKey: Guid(0af01ebed68a95d4daa00e92ebd0fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ANGRY MESH/Snowman using Guid(0af01ebed68a95d4daa00e92ebd0fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb103cbefe5b7c9659cce25d6b14d1a7') in 0.006762 seconds
+  Import took 0.008999 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_end.fbx
-  artifactKey: Guid(9afbf944fa05d4446a0cfba239d041cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_end.fbx using Guid(9afbf944fa05d4446a0cfba239d041cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05eb255249bd3e429df1ab9316a7522') in 0.032517 seconds
-  Import took 0.034770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_rock.fbx
-  artifactKey: Guid(b93bb625738c853428e88e545b458196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_rock.fbx using Guid(b93bb625738c853428e88e545b458196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f53c710a420eb096b09546b746cec51') in 0.037764 seconds
-  Import took 0.040037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_straightHillLarge.fbx
-  artifactKey: Guid(2e3ad6fb6c4b0fe4bb3bb1911e935da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_straightHillLarge.fbx using Guid(2e3ad6fb6c4b0fe4bb3bb1911e935da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3f6c81bd2fbcb7eaf4dd5575876406') in 0.032379 seconds
-  Import took 0.034915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_woodStructure.fbx
-  artifactKey: Guid(153640f8b8bdaa141b4c7e49536cc237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_woodStructure.fbx using Guid(153640f8b8bdaa141b4c7e49536cc237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188acc84f3679008c6e7748925dcbec6') in 0.030088 seconds
-  Import took 0.032295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideStraight.fbx
-  artifactKey: Guid(8c13bfbf4a9660940981a6d834d40b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideStraight.fbx using Guid(8c13bfbf4a9660940981a6d834d40b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfa390a5baa60e751d4160195d49386') in 0.042145 seconds
-  Import took 0.044915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_riverFall.fbx
-  artifactKey: Guid(86cca08d617a77f46b9b4f39499e744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_riverFall.fbx using Guid(86cca08d617a77f46b9b4f39499e744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e627825b4beecf8510219aabcba9c5da') in 0.032351 seconds
-  Import took 0.034832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_cornerRound.fbx
-  artifactKey: Guid(b676e712ed9fe1d469af82725718db5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_cornerRound.fbx using Guid(b676e712ed9fe1d469af82725718db5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a443e5fb080e650e6189b66ecb922f7c') in 0.034209 seconds
-  Import took 0.036487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_cornerSquare.fbx
-  artifactKey: Guid(737448f8a2494864a9c3a4115696f804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_cornerSquare.fbx using Guid(737448f8a2494864a9c3a4115696f804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f18343b33aadde76096ffdc0ea019a') in 0.033163 seconds
-  Import took 0.035473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_riverCorner.fbx
-  artifactKey: Guid(af861de411b65be4fadb816852b103d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_riverCorner.fbx using Guid(af861de411b65be4fadb816852b103d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd067295e2866d0b3bb928996ab91c') in 0.033719 seconds
-  Import took 0.036132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_straight.fbx
-  artifactKey: Guid(b7715ebe23ae6ec409c9aac738c8bb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_straight.fbx using Guid(b7715ebe23ae6ec409c9aac738c8bb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed308e77fc722e9cceaa5c47c46a3571') in 0.031327 seconds
-  Import took 0.034020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_cornerInner.fbx
-  artifactKey: Guid(ce03296854b6fe040801aa596037337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_cornerInner.fbx using Guid(ce03296854b6fe040801aa596037337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5136a7e08ba1e989dd16dccf16751a60') in 0.030006 seconds
-  Import took 0.032529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_riverSlopeLarge.fbx
-  artifactKey: Guid(c37bc89595b20f74499ea3775b3b0e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_riverSlopeLarge.fbx using Guid(c37bc89595b20f74499ea3775b3b0e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dbe5ba55162ea7bebf0c77de8b33b1') in 0.039427 seconds
-  Import took 0.041767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_crystal.fbx
-  artifactKey: Guid(ef6c8b582d74eb54fa7aa09e3e2adcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_crystal.fbx using Guid(ef6c8b582d74eb54fa7aa09e3e2adcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ae9c1bcaefc1ea0b3ec19b0325950f') in 0.064250 seconds
-  Import took 0.066397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_cornerOuter.fbx
-  artifactKey: Guid(41b252418b15630479f6eeb2709fda40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_cornerOuter.fbx using Guid(41b252418b15630479f6eeb2709fda40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3aa6b42e12b91dbb96d10893fe93f1') in 0.025255 seconds
-  Import took 0.027395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_riverStraight.fbx
-  artifactKey: Guid(14a70ad33a1778b4290b5ce5e1358fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_riverStraight.fbx using Guid(14a70ad33a1778b4290b5ce5e1358fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b052a91f57102a973c487cead038734') in 0.034540 seconds
-  Import took 0.036771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_transition.fbx
-  artifactKey: Guid(23a57a1641a1b5448aef5429cec5dcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_transition.fbx using Guid(23a57a1641a1b5448aef5429cec5dcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c4bdbad6c1fddff61ada21e6f3cb05') in 0.032503 seconds
-  Import took 0.034721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_riverTransition.fbx
-  artifactKey: Guid(e5e101c36ac9a104d8ae9c056fe46fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_riverTransition.fbx using Guid(e5e101c36ac9a104d8ae9c056fe46fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56ee2ea4e759d7247e9f1d7d448e626') in 0.035730 seconds
-  Import took 0.038808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_cornerLarge.fbx
-  artifactKey: Guid(57e6cdc0043d2534bac12fd66127dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_cornerLarge.fbx using Guid(57e6cdc0043d2534bac12fd66127dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c201dce95c0bfa02ed1ac3dc8c3ae9') in 0.036814 seconds
-  Import took 0.039426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_hill.fbx
-  artifactKey: Guid(b9f388d4c6f16b94cbd8fd60165e6155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_hill.fbx using Guid(b9f388d4c6f16b94cbd8fd60165e6155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f8af4aa3c1cc1ceda03a41e9620c68') in 0.034133 seconds
-  Import took 0.036402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile.fbx
-  artifactKey: Guid(535a52b18db28f14492a0ed100361d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile.fbx using Guid(535a52b18db28f14492a0ed100361d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05914fa410463fe14b7987d3474d1a9') in 0.026190 seconds
-  Import took 0.028309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_riverSlope.fbx
-  artifactKey: Guid(3041f558ad6cd484f9ce55731b30a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_riverSlope.fbx using Guid(3041f558ad6cd484f9ce55731b30a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841f3b9fa36ad4c0f6e21b98d85ebd8b') in 0.039135 seconds
-  Import took 0.041250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_woodStructure_high.fbx
-  artifactKey: Guid(d9248cafcba194746b7bfa5e0981c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_woodStructure_high.fbx using Guid(d9248cafcba194746b7bfa5e0981c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a277b864455c747f5de5ef7e54a56842') in 0.031434 seconds
-  Import took 0.033512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_bump.fbx
-  artifactKey: Guid(6ee92f61e56e45f41a7366cb96c181eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_bump.fbx using Guid(6ee92f61e56e45f41a7366cb96c181eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8a77a6a77eb72be9477e2a910a51fd') in 0.029266 seconds
-  Import took 0.032268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_spawnRound.fbx
-  artifactKey: Guid(df1519f5b8276af46a262d22773745b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_spawnRound.fbx using Guid(df1519f5b8276af46a262d22773745b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f192487d8283c3ba32e45bf6e4823fe') in 0.040431 seconds
-  Import took 0.042805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_crystals.fbx
-  artifactKey: Guid(38ab56293d1904b4696c6bc3421b71c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_crystals.fbx using Guid(38ab56293d1904b4696c6bc3421b71c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d183f336267b1c8fcfbde5e8e6492f') in 0.073454 seconds
-  Import took 0.076368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_middleA.fbx
-  artifactKey: Guid(2fadd9d06970fc248b1b677bb75617c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_middleA.fbx using Guid(2fadd9d06970fc248b1b677bb75617c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f51d883749c197423809a0b72da805') in 0.029064 seconds
-  Import took 0.031278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_roofB.fbx
-  artifactKey: Guid(13c2657905352de4cb1ddd7745990f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_roofB.fbx using Guid(13c2657905352de4cb1ddd7745990f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373adb16b714e27d24e4cf68917b3bc6') in 0.035701 seconds
-  Import took 0.038210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_base.fbx
-  artifactKey: Guid(58bdff059c1c28d4bbec8078518deb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_base.fbx using Guid(58bdff059c1c28d4bbec8078518deb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36811e2690e6b7574f7f416ee20a98bd') in 0.035031 seconds
-  Import took 0.038041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_bottomC.fbx
-  artifactKey: Guid(30b25731c5e879749a20d9dc441218c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_bottomC.fbx using Guid(30b25731c5e879749a20d9dc441218c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73497b8dde5023205d1fbfca9c5bfe6') in 0.027664 seconds
-  Import took 0.030278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_endRound.fbx
-  artifactKey: Guid(b76dc4d1fec4e744fb94366165d029e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_endRound.fbx using Guid(b76dc4d1fec4e744fb94366165d029e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e76875c874e0d9100eeadecf5b2c1d') in 0.033874 seconds
-  Import took 0.036394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_wideStraight.fbx
-  artifactKey: Guid(3047799e3701ae348ad2ad20b5f095dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_wideStraight.fbx using Guid(3047799e3701ae348ad2ad20b5f095dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3df319ff9be64d738a0cd3f09ba487a') in 0.030058 seconds
-  Import took 0.032273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_roofC.fbx
-  artifactKey: Guid(965788fca223dd34e9670afb1731044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_roofC.fbx using Guid(965788fca223dd34e9670afb1731044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bd51bd77e114eb9a9f6c75061e0487') in 0.032229 seconds
-  Import took 0.034397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideTransition.fbx
-  artifactKey: Guid(fe7aa758f78984a4883a731173ee84f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideTransition.fbx using Guid(fe7aa758f78984a4883a731173ee84f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128fac003a5e38a03cfb06001030fc33') in 0.039400 seconds
-  Import took 0.041692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_riverBridge.fbx
-  artifactKey: Guid(eacd575b37085d54b874fe011ac60bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_riverBridge.fbx using Guid(eacd575b37085d54b874fe011ac60bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01278f3b535fb5d276fdde3d73a4b658') in 0.038977 seconds
-  Import took 0.041278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideTransition.fbx
-  artifactKey: Guid(fe7aa758f78984a4883a731173ee84f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/snow_tile_wideTransition.fbx using Guid(fe7aa758f78984a4883a731173ee84f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128fac003a5e38a03cfb06001030fc33') in 0.036767 seconds
-  Import took 0.039490 seconds .
+  Time since last request: 0.239743 seconds.
+  path: Assets/ANGRY MESH/Snowman/Post-Processing Profile Snowman.asset
+  artifactKey: Guid(1c0b0c6874720aa44b0f32fb009da049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ANGRY MESH/Snowman/Post-Processing Profile Snowman.asset using Guid(1c0b0c6874720aa44b0f32fb009da049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507a99f9185e48d8380b589ce7c86dd1') in 0.007891 seconds
+  Import took 0.009968 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000254 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_dirtHigh.fbx
-  artifactKey: Guid(dfddca0d131149046b9590b284ba9ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_dirtHigh.fbx using Guid(dfddca0d131149046b9590b284ba9ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bb292613c5220347dd48c6b909b6fd') in 0.023413 seconds
-  Import took 0.025634 seconds .
+  path: Assets/ANGRY MESH/Snowman/Snowman_Terrain.asset
+  artifactKey: Guid(13791977a344a3445872baf8b112246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ANGRY MESH/Snowman/Snowman_Terrain.asset using Guid(13791977a344a3445872baf8b112246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
+Stack trace:
+0x00007ff674ce4a9a (Unity) CreateAssetToGUIDMappingV2
+0x00007ff674c47790 (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x00007ff673a58a05 (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00007ff673a576c0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007ff673a5466c (Unity) SplatDatabase::AwakeFromLoad
+0x00007ff673a9f0d6 (Unity) TerrainData::AwakeFromLoad
+0x00007ff673610e2f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff673611782 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff67361190a (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff67359d02e (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff67359da47 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff6735a0f93 (Unity) PersistentManager::ReadObject
+0x00007ff674c40041 (Unity) WritePreviews
+0x00007ff674c39efe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff674d29a09 (Unity) ImportToObjects
+0x00007ff674d28b19 (Unity) ImportAsset
+0x00007ff674c8ab78 (Unity) AssetImportWorker::Import
+0x00007ff674cdeb6f (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff674d81ad2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff674d83c30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff674d873be (Unity) asio::io_service::run
+0x00007ff674d0aa6b (Unity) RunAssetImportWorkerClientV2
+0x00007ff674d0aac0 (Unity) RunAssetImporterV2
+0x00007ff6741fc396 (Unity) Application::InitializeProject
+0x00007ff674b7f492 (Unity) WinMain
+0x00007ff6769c46e6 (Unity) __scrt_common_main_seh
+0x00007ff853577034 (KERNEL32) BaseThreadInitThunk
+0x00007ff854ba2651 (ntdll) RtlUserThreadStart
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_tree.fbx
-  artifactKey: Guid(104977371ceab7d4b80f9d52d46a3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_tree.fbx using Guid(104977371ceab7d4b80f9d52d46a3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994c810cb5e0776ec2f7ec41e34f01a4') in 0.042484 seconds
-  Import took 0.044611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_middleC.fbx
-  artifactKey: Guid(f6037f3d224c1c747af08fb2680ab776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_middleC.fbx using Guid(f6037f3d224c1c747af08fb2680ab776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23f073f89ba97e82166a784282716fe') in 0.028864 seconds
-  Import took 0.031171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_bottomB.fbx
-  artifactKey: Guid(e2a7b6ff4b32f0c478d7a92817b273dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_bottomB.fbx using Guid(e2a7b6ff4b32f0c478d7a92817b273dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3d8c127d017872995786853a0c802e') in 0.029175 seconds
-  Import took 0.031554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_roofA.fbx
-  artifactKey: Guid(68f991568c91be144af947fc49352b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_roofA.fbx using Guid(68f991568c91be144af947fc49352b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3e64a51e377749d8ea7be47e323db4') in 0.030964 seconds
-  Import took 0.033094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_wideSplit.fbx
-  artifactKey: Guid(468fb32a53aa14d45aca128dfea664ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_wideSplit.fbx using Guid(468fb32a53aa14d45aca128dfea664ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb6f346d0810e34ac9d1fa61038e09f') in 0.033371 seconds
-  Import took 0.035946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_bottomA.fbx
-  artifactKey: Guid(a648378c695e0d4448d7156e0626b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_bottomA.fbx using Guid(a648378c695e0d4448d7156e0626b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e28203314a93fda3301bace5dd2a79') in 0.028398 seconds
-  Import took 0.030577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleE.fbx
-  artifactKey: Guid(9b3330fc2963dde41bea0744262490a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleE.fbx using Guid(9b3330fc2963dde41bea0744262490a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e6152b5046170be4a8e4115b2184d3') in 0.035132 seconds
-  Import took 0.037684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_topA.fbx
-  artifactKey: Guid(4b33fb34335a08042935ad226aca034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_topA.fbx using Guid(4b33fb34335a08042935ad226aca034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9822d6b2fdb2f8763cd51f4213f0fc') in 0.032262 seconds
-  Import took 0.034592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_middleB.fbx
-  artifactKey: Guid(4b816d8da58f7c84ba8d9942c8ea8ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_middleB.fbx using Guid(4b816d8da58f7c84ba8d9942c8ea8ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b98c01e6f7464bd533a9a524b07342') in 0.032859 seconds
-  Import took 0.035167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleA.fbx
-  artifactKey: Guid(0405c68bf04800b44b872f17c92989fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleA.fbx using Guid(0405c68bf04800b44b872f17c92989fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7ee99d5a48075c8b16fdf9f6b3060f') in 0.034025 seconds
-  Import took 0.036279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_bottomB.fbx
-  artifactKey: Guid(2a7db4fbdf1c0a14dbb87d40e57a04e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_bottomB.fbx using Guid(2a7db4fbdf1c0a14dbb87d40e57a04e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99cb066f80dbab7a2aceb4d9c7097e7') in 0.029304 seconds
-  Import took 0.031803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_bottomC.fbx
-  artifactKey: Guid(8cad57c63cd19294abd7025a2c02902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_bottomC.fbx using Guid(8cad57c63cd19294abd7025a2c02902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07abff505d566dc8029cac0d9818590') in 0.027097 seconds
-  Import took 0.029268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleD.fbx
-  artifactKey: Guid(69176147ace6f1f41a54a87715ac6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleD.fbx using Guid(69176147ace6f1f41a54a87715ac6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f2ec607d82faee339bd7d3f0505a83') in 0.033488 seconds
-  Import took 0.035604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleF.fbx
-  artifactKey: Guid(c3d989ef0866651479de46624fedb831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleF.fbx using Guid(c3d989ef0866651479de46624fedb831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c549985a072cd6eec643a8a0e8902b') in 0.033844 seconds
-  Import took 0.035940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_topB.fbx
-  artifactKey: Guid(3e5abbcfa34648944a6d971ee2b3f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_topB.fbx using Guid(3e5abbcfa34648944a6d971ee2b3f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0362824e9b5db60b4b9c22aa5d6906a7') in 0.033285 seconds
-  Import took 0.035710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/weapon_ballista.fbx
-  artifactKey: Guid(27674fffb318996488c23656700a6246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/weapon_ballista.fbx using Guid(27674fffb318996488c23656700a6246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b6f05ce90585b59412e732acdd06e0') in 0.045391 seconds
-  Import took 0.047657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleA.fbx
-  artifactKey: Guid(21f225c9589343f41938e4eabd896165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleA.fbx using Guid(21f225c9589343f41938e4eabd896165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2c2120cb2d6b17c7a183c2b4a305b5') in 0.029758 seconds
-  Import took 0.031972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleD.fbx
-  artifactKey: Guid(2d20aeadf8cc7b2479e98bd46fee9812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleD.fbx using Guid(2d20aeadf8cc7b2479e98bd46fee9812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d59508f0cbbf7a127109a0593e014d1') in 0.033299 seconds
-  Import took 0.035510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_roofA.fbx
-  artifactKey: Guid(b3784a49badca8e49a76b6f67cd894a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_roofA.fbx using Guid(b3784a49badca8e49a76b6f67cd894a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5934dea4e8dc76e7326ad5e3623657') in 0.030355 seconds
-  Import took 0.032477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_topB.fbx
-  artifactKey: Guid(fcb7c25dd99776448b0cffa0fd5bef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_topB.fbx using Guid(fcb7c25dd99776448b0cffa0fd5bef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9ee47952fa382ad2c8462c0d04e4f1') in 0.033051 seconds
-  Import took 0.035247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_middleC.fbx
-  artifactKey: Guid(b02db4bb4d48a494bae8bc3024c3ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_middleC.fbx using Guid(b02db4bb4d48a494bae8bc3024c3ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc26fa8d5c303095fb7232b4bacc3512') in 0.033581 seconds
-  Import took 0.035872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_roofC.fbx
-  artifactKey: Guid(6ebecaf6d4964b0468b686ebc8047d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_roofC.fbx using Guid(6ebecaf6d4964b0468b686ebc8047d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dc47722bdbb84779a955a13d31a828') in 0.030214 seconds
-  Import took 0.032652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleF.fbx
-  artifactKey: Guid(971d8fe50145c9f40ad509bcdddf28d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleF.fbx using Guid(971d8fe50145c9f40ad509bcdddf28d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac10003e38055a97fc24d6f7e539abfc') in 0.032339 seconds
-  Import took 0.034455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_roofB.fbx
-  artifactKey: Guid(64c8aee5b87be2f4d8395a6acee54372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_roofB.fbx using Guid(64c8aee5b87be2f4d8395a6acee54372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaafb2aa3772194f0c4c06c49ec39a9f') in 0.033099 seconds
-  Import took 0.035561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleB.fbx
-  artifactKey: Guid(6a255d8135db35a4689a634fca24906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleB.fbx using Guid(6a255d8135db35a4689a634fca24906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd7ac77e2c7de5d29c4122c27ff357f') in 0.036522 seconds
-  Import took 0.038781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_topA.fbx
-  artifactKey: Guid(8f94db72eea58c541b35649aade7f0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_topA.fbx using Guid(8f94db72eea58c541b35649aade7f0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e18d85b5be52d21ca0893d3ce8c2dad') in 0.029060 seconds
-  Import took 0.031180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_middleA.fbx
-  artifactKey: Guid(42066d5a93feb414ea8c3edcdfd2fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_middleA.fbx using Guid(42066d5a93feb414ea8c3edcdfd2fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fdad87eb7b6e862363214ff4af8cce') in 0.026755 seconds
-  Import took 0.028922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_topC.fbx
-  artifactKey: Guid(2d6901ac37e41804e88972fd6207042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_topC.fbx using Guid(2d6901ac37e41804e88972fd6207042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b3b1387ab851fd828c2a08a48476d5') in 0.029276 seconds
-  Import took 0.031686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleC.fbx
-  artifactKey: Guid(faaf7a764afd95d468ee7b17d7c5cf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_sampleC.fbx using Guid(faaf7a764afd95d468ee7b17d7c5cf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264afe13381a9703eff093a2e64ae371') in 0.034667 seconds
-  Import took 0.036878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_endSpawn.fbx
-  artifactKey: Guid(9f47293f7ff0f3343945debc37883ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_endSpawn.fbx using Guid(9f47293f7ff0f3343945debc37883ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f9c23deda125af3d993b39bd7256de') in 0.044941 seconds
-  Import took 0.047140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/tile_wideTransition.fbx
-  artifactKey: Guid(bd0b986e5c3c4fe44a4a5637bd5748b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/tile_wideTransition.fbx using Guid(bd0b986e5c3c4fe44a4a5637bd5748b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dedbb4fea598d8e91ca7550d1136b8e') in 0.030783 seconds
-  Import took 0.032949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_middleB.fbx
-  artifactKey: Guid(17f439c4521de5d498bbaf30cb226b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_middleB.fbx using Guid(17f439c4521de5d498bbaf30cb226b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6116c521536e4c01ebaa669199430eb0') in 0.025638 seconds
-  Import took 0.027839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleE.fbx
-  artifactKey: Guid(27f0dc2bea84f58449e74e58f6de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleE.fbx using Guid(27f0dc2bea84f58449e74e58f6de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac776acce9f5f2af4363e42459c6cd2a') in 0.033175 seconds
-  Import took 0.035563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleC.fbx
-  artifactKey: Guid(d17b71a14e6364c41a486dcbfe6af968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleC.fbx using Guid(d17b71a14e6364c41a486dcbfe6af968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5462876e656f1b4b4f5613b19a0d45e9') in 0.032867 seconds
-  Import took 0.035061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleE.fbx
-  artifactKey: Guid(27f0dc2bea84f58449e74e58f6de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleE.fbx using Guid(27f0dc2bea84f58449e74e58f6de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac776acce9f5f2af4363e42459c6cd2a') in 0.030799 seconds
-  Import took 0.032969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleB.fbx
-  artifactKey: Guid(59373066b485fe34b86b8c250ad152ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_sampleB.fbx using Guid(59373066b485fe34b86b8c250ad152ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63860aec0c5ff419498c95e03bce2851') in 0.030872 seconds
-  Import took 0.033019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerSquare_topC.fbx
-  artifactKey: Guid(64b3426bb2caa344aaed8a7d0d165486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerSquare_topC.fbx using Guid(64b3426bb2caa344aaed8a7d0d165486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a62c0990f3f560cba7071ab4539387') in 0.028824 seconds
-  Import took 0.031065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/towerRound_bottomA.fbx
-  artifactKey: Guid(290bb853f4d8cac49a335460a40fc2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/towerRound_bottomA.fbx using Guid(290bb853f4d8cac49a335460a40fc2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2d9442a52ee0bbf87e9a365d0702c0') in 0.026392 seconds
-  Import took 0.028573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.267316 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/weapon_blaster.fbx
-  artifactKey: Guid(d139de97d7d4d9748a5c43b1eb11b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/weapon_blaster.fbx using Guid(d139de97d7d4d9748a5c43b1eb11b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc395652f54a9c445e27e6f1a022c6b') in 0.035143 seconds
-  Import took 0.037517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.143916 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/weapon_cannon.fbx
-  artifactKey: Guid(6697e7620aa3394458b253683b325df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/weapon_cannon.fbx using Guid(6697e7620aa3394458b253683b325df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0646b647a494d5a0ba8b2c3a531d9da7') in 0.093359 seconds
-  Import took 0.097864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/weapon_catapult.fbx
-  artifactKey: Guid(406cf66b70fce0a4a99a0f5baa53287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/weapon_catapult.fbx using Guid(406cf66b70fce0a4a99a0f5baa53287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61b0c62940bf84f2a1df0b4fcee146c') in 0.046461 seconds
-  Import took 0.048957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/woodStructure.fbx
-  artifactKey: Guid(bdcb5d7da3ca4f04ea1b21836f27b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/woodStructure.fbx using Guid(bdcb5d7da3ca4f04ea1b21836f27b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436607b1e30a62104e81e51804a673f5') in 0.034145 seconds
-  Import took 0.036388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Imports/Kenney/Chestii mai bune/woodStructure_high.fbx
-  artifactKey: Guid(d395798ecb60dee4a8e9ebcb3756db77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Kenney/Chestii mai bune/woodStructure_high.fbx using Guid(d395798ecb60dee4a8e9ebcb3756db77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b5eb29ce6526a101fd38a8d7c62cd5') in 0.030394 seconds
-  Import took 0.032747 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000572 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.7 MB.
-System memory in use after: 153.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1688.
-Total: 1.795400 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.530700 ms  DeleteObjects: 0.069700 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
