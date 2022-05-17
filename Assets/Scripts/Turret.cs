@@ -21,7 +21,7 @@ public class Turret : MonoBehaviour
     public bool useLaser = false;
 
     public int damageOverTime = 30;
-    public float slowPct = .5f;
+    public float slowPct = .3f;
 
     public LineRenderer lineRenderer;
     public ParticleSystem impactEffect;

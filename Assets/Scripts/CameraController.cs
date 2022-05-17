@@ -10,7 +10,10 @@ public class CameraController : MonoBehaviour
     public float minY = 10f;
     public float maxY = 80f;
 
-    
+
+
+
+
     void Update()
     {
         if (GameManager.GameIsOver)
@@ -46,7 +49,7 @@ public class CameraController : MonoBehaviour
 
         pos.y -= scroll * 1000 * scrollSpeed * Time.deltaTime;
         pos.y = Mathf.Clamp(pos.y, minY, maxY);
-
+  
         transform.position = pos;
     }
 }
